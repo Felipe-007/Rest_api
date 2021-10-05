@@ -1,0 +1,21 @@
+### Acessando via GET
+GET http://localhost:3000/subscribers
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Teste",
+    "userChannel": "hcodebrasil"
+}
+###
+GET http://localhost:3000/subscribers/614165e286177ee92a4afd9d
+###
+DELETE http://localhost:3000/subscribers/6142c07b4aa03c59fff7455e
+###
+PATCH http://localhost:3000/subscribers/6142c25fcc9c26b3f541a84d
+Content-Type: application/json
+
+{
+    "userName": "Path"
+}
